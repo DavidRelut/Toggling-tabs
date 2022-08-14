@@ -12,3 +12,14 @@ Yes ! Kata or Code Kata comes from Japanese martial arts and aims to improve the
 
 The objective of this kata is to Create a segmented control that turns into <select> for mobile screens.
 They synchronize each time one of them is modified.
+
+### Render
+
+Desktop :
+
+![Desktop render](/images/desktop.png)
+
+
+Mobile :
+
+![Mobile render](/images/mobile.png)
