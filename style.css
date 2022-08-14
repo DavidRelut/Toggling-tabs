@@ -32,7 +32,11 @@ body {
 
 .segmented-control__desktop>li {
   font-size: 18px;
-  padding: 12px 19px;
+  width: 14.8vw;
+  height: 6.5vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -42,7 +46,7 @@ body {
 }
   
 .segmented-control__desktop>li:nth-child(2) {
-  padding: 10px 23px;
+  /* padding: 10px 23px; */
   border-left: 3.5px solid #009eff;
   border-right: 3.5px solid #009eff;
 }
@@ -78,4 +82,5 @@ option {
 .segmented-control__el--active {
   background: #009eff;
   color: aliceblue;
+  height: 100%;
 }
