@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Toggling tabs</title>
+</head>
+<body>
+  
+  <!-- Desktop Part -->
+  <div class="container-segmented js-container-segmented">
+    <ul class="segmented-control__desktop">
+      <li class="segmented-control__el--active js-segemented-control__li" data-value="1">Sort by price</li>
+      <li class="js-segemented-control__li" data-value="2">Sort by name</li>
+      <li class="js-segemented-control__li" data-value="3">Sort by relevance</li>
+    </ul>
+
+    <!-- Mobile Part -->
+    <select class="segmented-control__select js-segmented-control__select">
+      <option value="1">Sort by price</option>
+      <option value="2">Sort by name</option>
+      <option value="3">Sort by relevance</option>
+    </select>
+  </div>
+
+</body>
+</html>
