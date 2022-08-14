@@ -5,6 +5,7 @@
 ### Definition
 
 You said Kata ?
+
 Yes ! Kata or Code Kata comes from Japanese martial arts and aims to improve these skills through the practice of repetition, using algorithms or exercises.
 
 ### Description
